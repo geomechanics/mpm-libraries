@@ -11,9 +11,11 @@ can be correctly replicated.
     * 'File' --> 'Open...' --> select the gmsh .geo input file
     * 'Modules' --> 'Mesh' --> '3D'
     * 'File' --> 'Save Mesh'
-    * Note: an example file, [example_gmsh_output_tetrahedron.msh](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/example_gmsh_output_tetrahedron.msh), is provided for reference.
+    * Note: an example gmsh output file, [example_gmsh_output_tetrahedron.msh](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/example_gmsh_output_tetrahedron.msh), is provided for reference.
 * Convert the .msh to a .csv file (all delimiters should be ',' for the .csv)
-    * Note: an example file, [to_convert.csv](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/to_convert.csv), is provided for reference.
+    * This part of the conversion is not included in the conversion program,
+    and must be completed manually (eg. using LibreOffice Calc or MS Excel).
+    * Note: an example .csv file, [to_convert.csv](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/to_convert.csv), is provided for reference.
 * Modify the inputs to the conversion program, [preproc_gmsh_converter.py](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/preproc_gmsh_converter.py), as needed:
     * The main user inputs are entered near the top of the file.
     * A section of additional user inputs (customizations) are available further
