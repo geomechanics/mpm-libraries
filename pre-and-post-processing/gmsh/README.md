@@ -11,7 +11,7 @@ can be correctly replicated.
     * 'File' --> 'Open...' --> select the gsm input file
     * 'Modules' --> 'Mesh' --> '3D'
     * 'File' --> 'Save Mesh'
-    * Note: an example file, [example_gmsh_output_tetrahedron.geo](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/example_gmsh_output_tetrahedron.msh), is provided for reference.
+    * Note: an example file, [example_gmsh_output_tetrahedron.msh](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/example_gmsh_output_tetrahedron.msh), is provided for reference.
 * Convert the .msh to a .csv file (all delimiters should be ',' for the .csv)
     * Note: an example file, [to_convert.csv](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/to_convert.csv), is provided for reference.
 * Modify the inputs to the conversion program, [preproc_gmsh_converter.py](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/preproc_gmsh_converter.py), as needed:
@@ -42,5 +42,5 @@ can be correctly replicated.
 **Notes on the sample files:**
 * The files are set up to create tetrahedral mesh within a hexahedral
 bounding box.
-* The files are set up to create boundary conditions (BCs) for the surfaces
-    of the mesh bounding box only.
+* The files are set up to create boundary conditions (BCs) for the surfaces of
+the mesh bounding box only.
