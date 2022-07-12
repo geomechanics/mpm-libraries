@@ -5,7 +5,7 @@ import shutil
 
 # --- USER INPUTS ---
 #in_dir: directory of .csv file to be converted
-in_dir = '/home/ledt/gmsh-4.9.5-Linux64/bin/gmsh_conversion/'
+in_dir = '/home/ledt/mpm-libraries/pre-and-post-processing/gmsh/example-files/'
 #ori_file: name of .csv file to be converted (must be comma-delimited .csv)
 #convert .msh to .csv before using this tool
 ori_file = 'to_convert.csv'

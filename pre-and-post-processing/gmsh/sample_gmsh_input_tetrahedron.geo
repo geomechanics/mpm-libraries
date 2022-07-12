@@ -1,5 +1,5 @@
 // INPUTS
-lc = 1.0; //characteristic length
+lc = 10.0; //characteristic length
 Xmin = 0;
 Xmax = 20;
 Ymin = -5;
