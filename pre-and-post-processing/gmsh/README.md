@@ -6,7 +6,7 @@ Additional example files are provided for reference: to check that the process
 can be correctly replicated.
 
 **Steps:**
-* Import the gmsh input file (herein [sample_gmsh_input_tetrahedron.geo](https://github.com/geomechanics/mpm-libraries/pre-and-post-processing/gmsh/sample_gmsh_input_tetrahedron.geo)) to gmsh.
+* Import the gmsh input file (herein [sample_gmsh_input_tetrahedron.geo](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/sample_gmsh_input_tetrahedron.geo)) to gmsh.
 * Generate mesh and save as a .msh file. If using the gmsh GUI:
     * 'File' --> 'Open...' --> select the gsm input file
     * 'Modules' --> 'Mesh' --> '3D'
