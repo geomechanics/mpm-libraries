@@ -11,19 +11,19 @@ can be correctly replicated.
     * 'File' --> 'Open...' --> select the gsm input file
     * 'Modules' --> 'Mesh' --> '3D'
     * 'File' --> 'Save Mesh'
-    * Note: an example file, [example_gmsh_output_tetrahedron.geo](https://github.com/geomechanics/mpm-libraries/pre-and-post-processing/gmsh/example-files/example_gmsh_output_tetrahedron.msh), is provided for reference.
+    * Note: an example file, [example_gmsh_output_tetrahedron.geo](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/example_gmsh_output_tetrahedron.msh), is provided for reference.
 * Convert the .msh to a .csv file (all delimiters should be ',' for the .csv)
-    * Note: an example file, [to_convert.csv](https://github.com/geomechanics/mpm-libraries/pre-and-post-processing/gmsh/example-files/to_convert.csv), is provided for reference.
-* Modify the inputs to the conversion program, [preproc_gmsh_converter.py](https://github.com/geomechanics/mpm-libraries/pre-and-post-processing/gmsh/preproc_gmsh_converter.py), as needed:
+    * Note: an example file, [to_convert.csv](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/to_convert.csv), is provided for reference.
+* Modify the inputs to the conversion program, [preproc_gmsh_converter.py](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/preproc_gmsh_converter.py), as needed:
     * The main user inputs are entered near the top of the file.
     * A section of additional user inputs (customizations) are available further
     down in the file, for additional flexibility.
     * Please see the file itself for descriptions and details on the inputs.
 * Run the conversion program (uses Python).
 * The following outputs may be generated:
-    * MPM mesh input file: [mesh.txt](https://github.com/geomechanics/mpm-libraries/pre-and-post-processing/gmsh/example-files/mesh.txt).
-    * MPM velocity constraints input file: [velocity_constraints.txt](https://github.com/geomechanics/mpm-libraries/pre-and-post-processing/gmsh/example-files/velocity_constraints.txt).
-    * MPM entity sets input file: [entity_sets.json](https://github.com/geomechanics/mpm-libraries/pre-and-post-processing/gmsh/example-files/entity_sets.json).
+    * MPM mesh input file: [mesh.txt](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/mesh.txt).
+    * MPM velocity constraints input file: [velocity_constraints.txt](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/velocity_constraints.txt).
+    * MPM entity sets input file: [entity_sets.json](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/entity_sets.json).
     * A folder with additional informational files (may be useful for additional
     pre-processing needs), specifically:
         * A .csv file with information on all elements (one per row), including
