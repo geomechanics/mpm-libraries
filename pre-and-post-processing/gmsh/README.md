@@ -8,7 +8,7 @@ can be correctly replicated.
 **Steps:**
 * Import the gmsh input file (herein [sample_gmsh_input_tetrahedron.geo](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/sample_gmsh_input_tetrahedron.geo)) to gmsh.
 * Generate mesh and save as a .msh file. If using the gmsh GUI:
-    * 'File' --> 'Open...' --> select the gsm input file
+    * 'File' --> 'Open...' --> select the gmsh .geo input file
     * 'Modules' --> 'Mesh' --> '3D'
     * 'File' --> 'Save Mesh'
     * Note: an example file, [example_gmsh_output_tetrahedron.msh](https://github.com/geomechanics/mpm-libraries/blob/main/pre-and-post-processing/gmsh/example-files/example_gmsh_output_tetrahedron.msh), is provided for reference.
