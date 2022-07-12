@@ -40,7 +40,7 @@ can be correctly replicated.
         node IDs followed by nodal coordinates).
 
 **Notes on the sample files:**
-    * The files are set up to create tetrahedral mesh within a hexahedral
-    bounding box.
-    * The files are set up to create boundary conditions (BCs) for the surfaces
+* The files are set up to create tetrahedral mesh within a hexahedral
+bounding box.
+* The files are set up to create boundary conditions (BCs) for the surfaces
     of the mesh bounding box only.
